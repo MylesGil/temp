@@ -1,0 +1,10 @@
+{
+    "production": {
+        "app_function": "myproject.wsgi.application",
+        "aws_region": "ap-south-1",
+        "profile_name": "default",
+        "project_name": "django-lambda-app",
+        "runtime": "python3.9",
+        "s3_bucket": "your-zappa-deployments-bucket"
+    }
+}
